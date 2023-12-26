@@ -12,12 +12,12 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/java/Features/Table.feature" },
+		features = {"src/test/java/Features/Element.feature" },
        glue="Steps",
         monochrome = true, 
         dryRun = !true , 
         plugin= {"pretty"},
-       // tags = "@Frames",
+       tags = "@text",
 		snippets = SnippetType.CAMELCASE)
 
 public class RunnerClass extends AbstractTestNGCucumberTests {

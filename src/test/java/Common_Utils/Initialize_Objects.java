@@ -11,7 +11,7 @@ public class Initialize_Objects {
 	
 	public static void initelements() {
 		
-		PageFactory.initElements(Launch_Browser.driver,Page_Objects.Home_Page_Objects.class);
+		PageFactory.initElements(Launch_Browser.driver,Page_Objects.Elements_Page_Objects.class);
 		
 	}
 
